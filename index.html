@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: blanchedalmond;
+        }
+
+        ul {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            margin: 0 300px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        img {
+            margin: 0 5px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        button {
+            width: 20%;
+            height: 20%;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin: 50px 130px;
+        }
+
+        .food {
+            background-image: url(./images/Fast\ Food\ Restaurant.jpeg);
+            height: 220px;
+            width: 350px;
+            background-size: cover;
+            border-radius: 25px;
+        }
+
+        .cooking {
+            background-image: url(./images/Premium\ Photo\ _\ Silhouette\ of\ tableware\ and\ vegetables.jpeg);
+            height: 220px;
+            width: 350px;
+            background-size: cover;
+            border-radius: 25px;
+        }
+
+        .life-style {
+            background-image: url(./images/Free\ Photo\ _\ Chopping\ board\ surrounded\ with\ vegetables;\ eggs\ and\ rice\ grains\ on\ desk.jpeg);
+            height: 220px;
+            width: 350px;
+            background-size: cover;
+            border-radius: 25px;
+        }
+
+        section button {
+            margin: 100px 0 0 0;
+            border-radius: 20px;
+            height: 30px;
+            width: 120px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FOODIES ADDA</h1>
+    <ul>
+        <li><a href="home">home</a></li>
+        <li><a href="pages">pages</a></li>
+        <li><a href="features">features</a></li>
+        <li><a href="categories">categories</a></li>
+        <li><a href="archive">archive</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="conact">Contact</a></li>
+    </ul><br>
+
+    <img src="./images/Grilled Tandoori Chicken with Indian-Style Rice.jpeg" alt="1" style="width: 24%;">
+    <img src="./images/South Indian Food.jpeg" alt="2" width="24%">
+    <img src="./images/Delicious pizza.jpeg" alt="3" width="24%">
+    <img src="./images/20+ Best Indo Chinese Recipes.jpeg" alt="4" width="24%">
+
+    <section>
+        <div class="food"><button>food</button></div>
+        <div class="cooking"><button>cooking</button></div>
+        <div class="life-style"><button>life-style</button></div>
+    </section>
+
+</body>
+
+</html>
